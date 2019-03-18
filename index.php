@@ -31,7 +31,7 @@
     $pass = "Alfin1906	";
     $db = "websubmision";
 try {
-    $conn = new PDO("sqlsrv:server = tcp:alfin.database.windows.net,1433; Database = websubmision", "alfinnur", "{your_password_here}");
+    $conn = new PDO("sqlsrv:server = tcp:alfin.database.windows.net,1433; Database = websubmision", "alfinnur", "Alfin1906");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
