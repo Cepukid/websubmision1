@@ -26,8 +26,8 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "alfin.database.windows.net";
-    $user = "alfinnur";
+    $host = "alfin.database.windows.net:1433";
+    $user = "alfinnur@alfin";
     $pass = "Alfin1906	";
     $db = "websubmision";
     try {
